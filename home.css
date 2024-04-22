@@ -1,0 +1,118 @@
+.body{
+    background-color: antiquewhite;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(186, 181, 181);
+    border-radius: 10px;
+    padding: 20px;
+    height: 120px;
+}
+.logo{
+    font-size: large;
+    font-weight: 600;
+    color: rgb(29, 27, 27);
+}
+img{
+    border-radius: 25px;
+}
+.links{
+    justify-content: space-between;
+    background-color: rgb(207, 203, 198);
+    border-radius: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    list-style-type: none;
+}
+.links li{
+    margin: 25px;
+    /* list-style-type: none; */
+}
+.links li a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 600;
+}
+.links li a:hover{
+    transition: all 1.5s;
+    color: rgb(194, 161, 121);
+}
+.banner{
+    width: 95%;
+    border-radius: 10px;
+    background-color: rgb(218, 213, 222);
+    padding: 20px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 200px;
+}
+.box{
+    display: flex;
+    text-align: center;
+    text-shadow: 20px;
+    border-radius: 15px;
+    gap: 15px;
+}
+.box:hover{
+    color: black;
+    transition: all 1.5s;
+}
+.box1{
+    margin-left: 15px;
+    background-color: rgb(218, 213, 222);
+    border-radius: 10px;
+    padding: 10px;
+    height: 200px;
+    width: 30%;
+}
+.box2{
+    margin-left: 15px;
+    background-color: rgb(218, 213, 222);
+    border-radius: 15px;
+    padding: 10px;
+    height: 200px;
+    width: 30%
+}
+.box3{
+    margin-left: 15px;
+    background-color: rgb(218, 213, 222);
+    border-radius: 15px;
+    padding: 10px;
+    height: 200px;
+    width: 30%
+}
+.container{
+    display: flex;
+    text-align: center;
+    border-radius: 15px;
+    gap: 15px;
+}
+.container:hover{
+    color: blue;
+    transition: all 1.5s;
+}
+.container1{
+    padding: 30px;
+    width: 45%;
+    height: 250px;
+    background-color: rgb(212, 191, 196);
+    border-radius: 10px;
+    text-align: center;
+    /* margin-left: 40px; */
+    float: left;
+}
+.container2{
+   padding: 30px;
+   width: 50%;
+   background-color:  rgb(212, 191, 196);
+   border-radius: 10px;
+   height: 250px;
+   text-align: center;
+   float:right;
+   margin-left: 200px;
+}
